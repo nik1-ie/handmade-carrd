@@ -1,3 +1,31 @@
-h1 {
-    align-self: center;
+body {
+    background-color:aliceblue;
+}
+
+section.page {
+    background-color:aliceblue;
+    border-style: dotted;
+    border-color: saddlebrown;
+    padding-left: 3%;
+    padding-right: 3%;
+    justify-self: center;
+    display: flex;
+    /* margin: 20%; */
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+.bar {
+    border-color: saddlebrown;
+    border-style: solid;
+    border-width: 5%;
+    background-color: rgb(214, 187, 152);
+    padding: 1%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+img {
+    border-style: solid;
+    border-color: saddlebrown;
+    border-width: 5%;
 }
